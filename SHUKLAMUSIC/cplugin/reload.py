@@ -32,7 +32,7 @@ rel = {}
 
 @Client.on_message(
     filters.command(
-        ["admincache", "reload", "refresh"],
+        ["admin4cache", "r5eload", "refresh"],
         prefixes=["/", "!", "%", ",", "", ".", "@", "#"],
     )
     & filters.group
@@ -107,7 +107,7 @@ async def restartbot(client, message: Message, _):
 
 
 @Client.on_message(
-    filters.command("starts") & filters.private & filters.user(int(LOGGERS))
+    filters.command("st444arts") & filters.private & filters.user(int(LOGGERS))
 )
 async def help(client: Client, message: Message):
     await message.reply_photo(
